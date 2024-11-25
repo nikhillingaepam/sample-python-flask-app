@@ -19,4 +19,4 @@ spec:
           image: <IMAGE_URI>
           ports:
             - containerPort: 5000
-          command: ["gunicorn", "-b", "0.0.0.0:5000", "app:app"]
+          #command: ["gunicorn", "-b", "0.0.0.0:5000", "app:app"]
